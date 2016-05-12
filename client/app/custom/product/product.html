@@ -1,0 +1,63 @@
+<section class="section" >
+<div  class=""  style="background-image: url('http://wallpapershdfine.com/wp-content/gallery/red-gold-wallpaper/Red_and_Gold_Damask_Wallpaper_by_MT_Schorsch.jpg');">
+  <div ng-controller="ProductCtrl as productctrl" class="container-content"> 
+	  <div class="product_dialog">
+			<!-- <div class="content-left-half bg" style="background-image: url({{curretImage}})"> -->
+
+			<div class="content-left-half" >
+	    	<div class="slider" style="vertical-align: middle; overflow: hidden;">
+        	<img ng-repeat="photo in medias"  ng-swipe-right="showPrev()" ng-swipe-left="showNext()" class="slide" ng-show="isActive($index)" ng-src="{{photo.media_url}}" />        
+        </div> 
+
+    	</div>
+			<div class = "content-right-half" >
+				<div class="col-sm-7 content-post">
+					<p class="my_font times_new_roman bold italic my_font_size_24pt color_grey">posted by
+					</p>
+					<p class="font opensans my_font_size_36pt" style="color:#000;">{{medias[_Index].username}}</p>
+
+					<p class="my_font_size_30pt color_pink" style="background-color: transparent;">
+						<i class="fa fa-twitter" ng-show="medias[_Index].type == 'twitter'"></i>
+						<i class="fa fa-instagram" ng-show="medias[_Index].type == 'instagram'"></i>			
+					</p>
+
+					<div class="my_font opensans bold my_font_size_30pt color_pink" style="width:100%; text-align: center;">{{hashtag}}</div>
+
+					<div class="word_wrap my_font opensans my_font_size_24pt color_grey" style="text-align: center;" ng-maxlength="10" ng-bind-html="currentMediaText"	>
+					</div>
+
+					<img src="../assets/images/general/dividers/2.png" style="width:60%; top: 80%; position: absolute; left: 20%;">
+
+					<div class="color_black my_font_size_20pt" style="width: 90%; left:5%; top:85%; position: absolute;">
+          	<div class="panel-body">
+		        	<div ng-repeat="instruction in instructions"  
+		        	class="slide" ng-show="$index == currentInstruction" ng-bind-html="instruction" />        
+		        </div> 
+						
+					</div> 
+
+				</div>
+				<div class="col-sm-5 content-album">
+
+					<div id="content-right-top" >
+ 							<img class="logo_img" ng-src="../assets/images/logo2.png"/>
+					</div>
+					<div id="content-right-bottom" >
+							<img src="../assets/images/general/dividers/1.png" style="width: 100%;">
+							<span class="font times_new_roman bold italic my_font_size_24pt color_grey pointer_hand" ng-click="upPhoto()">up</span>
+							<span class="font times_new_roman bold italic my_font_size_24pt color_grey pointer_hand" ng-click="nextPhoto()">next
+							</span>
+							<div class="wrapper" style="text-align: center;" >
+	                <ul class="list" style="height:80% -webkit-padding-start:0px; text-align: center; display: inline-block; padding-left:0px;">
+	                  <li ng-repeat="media in queueMedias" style="text-align: center;">
+	                    <img class="wrapper_img {{currentAnimation}}" ng-src="{{media.media_url}}">
+	                  </li>
+	                </ul>
+							</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</section>

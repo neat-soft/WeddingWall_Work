@@ -1,0 +1,889 @@
+2016-03-28T16:46:19.766Z - info: Express server listening on 9090, in development mode
+2016-03-28T17:01:38.294Z - error:  SyntaxError: Unexpected token G
+    at parse (native)
+    at processImmediate [as _immediateCallback] (timers.js:367:17)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:19:6)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-28T17:06:36.075Z - error:  SyntaxError: Unexpected token l
+    at parse (native)
+    at processImmediate [as _immediateCallback] (timers.js:367:17)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:19:6)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-28T17:45:35.660Z - info: Express server listening on 9090, in development mode
+2016-03-28T21:02:00.386Z - info: Express server listening on 9090, in development mode
+2016-03-28T21:26:04.692Z - info: Express server listening on 9090, in development mode
+2016-03-28T21:34:09.847Z - info: Express server listening on 9090, in development mode
+2016-03-28T21:35:08.773Z - info: Express server listening on 9090, in development mode
+2016-03-28T21:39:28.420Z - info: Express server listening on 9090, in development mode
+2016-03-28T22:02:45.170Z - info: Express server listening on 9090, in development mode
+2016-03-28T22:11:06.248Z - info: Express server listening on 9090, in development mode
+2016-03-28T22:12:07.718Z - info: Express server listening on 9090, in development mode
+2016-03-28T22:36:17.087Z - error:  Error: getaddrinfo ENOTFOUND backpack.tf
+    at errnoException (dns.js:44:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T00:36:14.485Z - error:  Error: getaddrinfo ENOTFOUND backpack.tf
+    at errnoException (dns.js:44:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T04:21:10.414Z - error:  Error: getaddrinfo ENOTFOUND backpack.tf
+    at errnoException (dns.js:44:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T04:31:24.657Z - error:  Error: getaddrinfo ENOTFOUND backpack.tf
+    at errnoException (dns.js:44:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T04:36:14.678Z - error:  Error: read ECONNRESET
+    at exports._errnoException (util.js:746:11)
+    at TCP.onread (net.js:561:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T04:41:19.733Z - error:  Error: getaddrinfo ENOTFOUND backpack.tf
+    at errnoException (dns.js:44:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T04:51:19.742Z - error:  Error: getaddrinfo ENOTFOUND backpack.tf
+    at errnoException (dns.js:44:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T05:51:19.748Z - error:  Error: getaddrinfo ENOTFOUND backpack.tf
+    at errnoException (dns.js:44:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T05:56:16.438Z - error:  Error: getaddrinfo ENOTFOUND backpack.tf
+    at errnoException (dns.js:44:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T06:01:19.747Z - error:  Error: getaddrinfo ENOTFOUND backpack.tf
+    at errnoException (dns.js:44:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T07:01:06.116Z - error:  Error: getaddrinfo ENOTFOUND backpack.tf
+    at errnoException (dns.js:44:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T07:17:01.894Z - info: Express server listening on 9090, in development mode
+2016-03-29T07:19:23.901Z - info: Express server listening on 9090, in development mode
+2016-03-29T07:25:24.834Z - info: Express server listening on 9090, in development mode
+2016-03-29T07:26:12.639Z - info: Express server listening on 9090, in development mode
+2016-03-29T08:29:57.219Z - info: Express server listening on 9090, in development mode
+2016-03-29T09:20:16.762Z - error:  Error: read ECONNRESET
+    at exports._errnoException (util.js:746:11)
+    at TCP.onread (net.js:561:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-03-29T09:25:24.089Z - error:  Error: getaddrinfo ENOTFOUND backpack.tf
+    at errnoException (dns.js:44:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:94:26)
+From previous event:
+    at Object.exports.requestSteamPrices (/home/dev/g2a/skywarrior-1/server/components/redis/steam.prices.js:15:18)
+    at Object.fn (/home/dev/g2a/skywarrior-1/server/components/scheduler/index.js:14:26)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/lib/job.js:210:22
+    at processDbResult (/home/dev/g2a/skywarrior-1/node_modules/agenda/lib/agenda.js:348:7)
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/collection.js:1470:14
+    at handleCallback (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/utils.js:95:12)
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/lib/db.js:253:5
+    at /home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:795:13
+    at Callbacks.emit (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:94:3)
+    at null.messageHandler (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/topologies/server.js:235:23)
+    at Socket.<anonymous> (/home/dev/g2a/skywarrior-1/node_modules/agenda/node_modules/mongodb/node_modules/mongodb-core/lib/connection/connection.js:259:22)
+    at Socket.emit (events.js:107:17)
+    at readableAddChunk (_stream_readable.js:163:16)
+    at Socket.Readable.push (_stream_readable.js:126:10)
+    at TCP.onread (net.js:540:20)
+2016-04-01T19:33:14.386Z - info: Express server listening on 3000, in development mode
+2016-04-01T19:50:45.352Z - info: Express server listening on 3000, in development mode
+2016-04-01T19:51:42.036Z - info: Express server listening on 3000, in development mode
+2016-04-01T19:54:50.858Z - info: Express server listening on 3000, in development mode
+2016-04-01T19:58:29.507Z - info: Express server listening on 3000, in development mode
+2016-04-01T20:03:12.529Z - info: Express server listening on 3000, in development mode
+2016-04-02T15:01:18.630Z - info: Express server listening on 3000, in development mode
+2016-04-02T16:13:20.322Z - info: Express server listening on 3000, in development mode
+2016-04-02T16:15:51.717Z - info: Express server listening on 3000, in development mode
+2016-04-02T16:20:11.993Z - info: Express server listening on 3000, in development mode
+2016-04-02T16:20:37.119Z - info: Express server listening on 3000, in development mode
+2016-04-02T16:24:39.554Z - info: Express server listening on 3000, in development mode
+2016-04-02T16:29:18.240Z - info: Express server listening on 3000, in development mode
+2016-04-02T16:31:23.491Z - info: Express server listening on 3000, in development mode
+2016-04-02T16:40:38.237Z - info: Express server listening on 3000, in development mode
+2016-04-02T16:40:59.743Z - info: Express server listening on 3000, in development mode
+2016-04-02T16:45:13.547Z - info: Express server listening on 3000, in development mode
+2016-04-02T16:48:54.320Z - info: Express server listening on 3000, in development mode
+2016-04-02T16:52:31.749Z - info: Express server listening on 3000, in development mode
+2016-04-02T16:57:39.143Z - info: Express server listening on 3000, in development mode
+2016-04-02T17:05:26.992Z - info: Express server listening on 3000, in development mode
+2016-04-02T17:06:44.263Z - info: Express server listening on 3000, in development mode
+2016-04-02T17:08:51.962Z - info: Express server listening on 3000, in development mode
+2016-04-02T17:22:33.704Z - info: Express server listening on 3000, in development mode
+2016-04-02T17:59:02.421Z - info: Express server listening on 3000, in development mode
+2016-04-02T18:08:44.014Z - info: Express server listening on 3000, in development mode
+2016-04-02T18:13:26.212Z - info: Express server listening on 3000, in development mode
+2016-04-02T22:03:05.218Z - info: Express server listening on 3000, in development mode
+2016-04-03T20:42:47.852Z - info: Express server listening on 3000, in development mode
+2016-04-03T20:51:06.171Z - info: Express server listening on 3000, in development mode
+2016-04-03T20:54:27.786Z - info: Express server listening on 3000, in development mode
+2016-04-03T21:12:19.687Z - info: Express server listening on 3000, in development mode
+2016-04-03T21:23:49.474Z - info: Express server listening on 3000, in development mode
+2016-04-03T21:27:27.969Z - info: Express server listening on 3000, in development mode
+2016-04-03T21:28:51.342Z - info: Express server listening on 3000, in development mode
+2016-04-03T21:35:25.228Z - info: Express server listening on 3000, in development mode
+2016-04-03T21:45:12.799Z - info: Express server listening on 3000, in development mode
+2016-04-03T21:52:38.375Z - info: Express server listening on 3000, in development mode
+2016-04-03T22:11:14.826Z - info: Express server listening on 3000, in development mode
+2016-04-03T22:17:42.484Z - info: Express server listening on 3000, in development mode
+2016-04-03T22:19:27.456Z - info: Express server listening on 3000, in development mode
+2016-04-03T23:06:33.849Z - info: Express server listening on 3000, in development mode
+2016-04-03T23:48:14.213Z - info: Express server listening on 3000, in development mode
+2016-04-04T06:38:24.412Z - info: Express server listening on 3000, in development mode
+2016-04-04T06:52:13.606Z - info: Express server listening on 3000, in development mode
+2016-04-04T07:05:05.956Z - info: Express server listening on 3000, in development mode
+2016-04-04T07:11:32.365Z - info: Express server listening on 3000, in development mode
+2016-04-04T07:15:45.470Z - info: Express server listening on 3000, in development mode
+2016-04-04T07:19:58.224Z - info: Express server listening on 3000, in development mode
+2016-04-04T07:40:48.564Z - info: Express server listening on 3000, in development mode
+2016-04-04T07:50:28.689Z - info: Express server listening on 3000, in development mode
+2016-04-04T08:41:02.023Z - info: Express server listening on 3000, in development mode
+2016-04-04T08:42:47.303Z - info: Express server listening on 3000, in development mode
+2016-04-04T08:54:58.345Z - info: Express server listening on 3000, in development mode
+2016-04-04T09:19:13.334Z - info: Express server listening on 3000, in development mode
+2016-04-04T09:26:27.319Z - info: Express server listening on 3000, in development mode
+2016-04-04T09:30:51.935Z - info: Express server listening on 3000, in development mode
+2016-04-04T09:38:04.334Z - info: Express server listening on 3000, in development mode
+2016-04-04T14:28:57.335Z - info: Express server listening on 3000, in development mode
+2016-04-04T16:12:41.505Z - info: Express server listening on 3000, in development mode
+2016-04-04T16:59:56.045Z - info: Express server listening on 3000, in development mode
+2016-04-04T17:14:36.101Z - info: Express server listening on 3000, in development mode
+2016-04-04T17:14:47.173Z - info: Express server listening on 3000, in development mode
+2016-04-04T17:15:44.659Z - info: Express server listening on 3000, in development mode
+2016-04-04T17:16:05.271Z - info: Express server listening on 3000, in development mode
+2016-04-04T17:17:47.958Z - info: Express server listening on 3000, in development mode
+2016-04-04T17:19:07.540Z - info: Express server listening on 3000, in development mode
+2016-04-04T18:55:13.300Z - info: Express server listening on 3000, in development mode
+2016-04-04T18:56:08.454Z - info: Express server listening on 3000, in development mode
+2016-04-04T21:22:56.712Z - info: Express server listening on 3000, in development mode
+2016-04-04T21:23:48.447Z - info: Express server listening on 3000, in development mode
+2016-04-04T21:28:28.846Z - info: Express server listening on 3000, in development mode
+2016-04-04T21:30:27.092Z - info: Express server listening on 3000, in development mode
+2016-04-04T21:30:42.865Z - info: Express server listening on 3000, in development mode
+2016-04-04T21:32:08.752Z - info: Express server listening on 3000, in development mode
+2016-04-04T21:41:27.399Z - info: Express server listening on 3000, in development mode
+2016-04-04T21:48:19.102Z - info: Express server listening on 3000, in development mode
+2016-04-04T21:49:33.861Z - info: Express server listening on 3000, in development mode
+2016-04-04T21:49:41.358Z - info: Express server listening on 3000, in development mode
+2016-04-04T21:50:23.882Z - info: Express server listening on 3000, in development mode
+2016-04-04T21:51:47.071Z - info: Express server listening on 3000, in development mode
+2016-04-04T21:52:57.467Z - info: Express server listening on 3000, in development mode
+2016-04-04T21:58:41.778Z - info: Express server listening on 3000, in development mode
+2016-04-04T22:10:06.432Z - info: Express server listening on 3000, in development mode
+2016-04-04T23:27:37.010Z - info: Express server listening on 3000, in development mode
+2016-04-04T23:54:21.996Z - info: Express server listening on 3000, in development mode
+2016-04-04T23:56:07.436Z - info: Express server listening on 3000, in development mode
+2016-04-04T23:57:47.949Z - info: Express server listening on 3000, in development mode
+2016-04-04T23:58:41.114Z - info: Express server listening on 3000, in development mode
+2016-04-04T23:59:04.832Z - info: Express server listening on 3000, in development mode
+2016-04-05T00:00:29.518Z - info: Express server listening on 3000, in development mode
+2016-04-05T00:01:23.633Z - info: Express server listening on 3000, in development mode
+2016-04-05T00:02:58.158Z - info: Express server listening on 3000, in development mode
+2016-04-05T00:05:03.115Z - info: Express server listening on 3000, in development mode
+2016-04-05T00:05:48.103Z - info: Express server listening on 3000, in development mode
+2016-04-05T00:07:30.526Z - info: Express server listening on 3000, in development mode
+2016-04-05T00:08:35.332Z - info: Express server listening on 3000, in development mode
+2016-04-05T00:09:31.900Z - info: Express server listening on 3000, in development mode
+2016-04-05T00:09:38.298Z - info: Express server listening on 3000, in development mode
+2016-04-05T00:10:57.442Z - info: Express server listening on 3000, in development mode
+2016-04-05T00:13:48.401Z - info: Express server listening on 3000, in development mode
+2016-04-05T00:14:38.918Z - info: Express server listening on 3000, in development mode
+2016-04-05T00:17:03.032Z - info: Express server listening on 3000, in development mode
+2016-04-05T00:19:14.664Z - info: Express server listening on 3000, in development mode
+2016-04-05T00:19:55.033Z - info: Express server listening on 3000, in development mode
+2016-04-05T03:14:19.665Z - info: Express server listening on 3000, in development mode
+2016-04-05T03:23:36.531Z - info: Express server listening on 3000, in development mode
+2016-04-05T03:24:50.021Z - info: Express server listening on 3000, in development mode
+2016-04-05T03:28:27.362Z - info: Express server listening on 3000, in development mode
+2016-04-05T04:41:16.956Z - info: Express server listening on 3000, in development mode
+2016-04-05T04:42:43.452Z - info: Express server listening on 3000, in development mode
+2016-04-05T10:47:25.065Z - info: Express server listening on 3000, in development mode
+2016-04-05T10:54:25.538Z - info: Express server listening on 3000, in development mode
+2016-04-05T10:54:32.711Z - info: Express server listening on 3000, in development mode
+2016-04-05T10:55:10.822Z - info: Express server listening on 3000, in development mode
+2016-04-05T11:03:26.124Z - info: Express server listening on 3000, in development mode
+2016-04-05T11:04:40.532Z - info: Express server listening on 3000, in development mode
+2016-04-05T11:06:41.819Z - info: Express server listening on 3000, in development mode
+2016-04-05T11:07:43.644Z - info: Express server listening on 3000, in development mode
+2016-04-05T11:09:24.835Z - info: Express server listening on 3000, in development mode
+2016-04-05T11:10:01.545Z - info: Express server listening on 3000, in development mode
+2016-04-05T11:10:43.546Z - info: Express server listening on 3000, in development mode
+2016-04-05T11:11:57.435Z - info: Express server listening on 3000, in development mode
+2016-04-05T11:12:51.176Z - info: Express server listening on 3000, in development mode
+2016-04-05T11:12:57.176Z - info: Express server listening on 3000, in development mode
+2016-04-05T11:14:15.948Z - info: Express server listening on 3000, in development mode
+2016-04-05T11:15:04.553Z - info: Express server listening on 3000, in development mode
+2016-04-05T11:15:11.330Z - info: Express server listening on 3000, in development mode
+2016-04-05T11:15:50.769Z - info: Express server listening on 3000, in development mode
+2016-04-19T15:50:15.950Z - info: Express server listening on 3000, in development mode
+2016-04-21T19:10:05.124Z - info: Express server listening on 3000, in development mode
+2016-04-21T19:19:44.757Z - info: Express server listening on 3000, in development mode
+2016-04-22T18:18:11.277Z - info: Express server listening on 3000, in development mode
+2016-04-22T18:29:06.771Z - info: Express server listening on 3000, in development mode
+2016-04-23T07:08:12.568Z - info: Express server listening on 3000, in development mode
+2016-04-23T07:09:41.315Z - info: Express server listening on 3000, in development mode
+2016-04-25T01:31:51.977Z - info: Express server listening on 3000, in development mode
+2016-04-25T05:30:13.277Z - info: Express server listening on 3000, in development mode
+2016-04-25T11:59:09.194Z - info: Express server listening on 3000, in development mode
+2016-04-25T11:59:49.201Z - info: Express server listening on 3000, in development mode
+2016-04-25T12:02:09.313Z - info: Express server listening on 3000, in development mode
+2016-04-25T12:05:00.806Z - info: Express server listening on 3000, in development mode
+2016-04-26T05:34:44.855Z - info: Express server listening on 3000, in development mode
+2016-04-26T10:08:32.007Z - info: Express server listening on 3000, in development mode
+2016-04-26T11:42:10.114Z - info: Express server listening on 3000, in development mode
+2016-04-26T21:13:31.435Z - info: Express server listening on 3000, in development mode
+2016-04-26T21:19:34.663Z - info: Express server listening on 3000, in development mode
+2016-04-27T00:46:15.031Z - info: Express server listening on 3000, in development mode
+2016-04-27T08:19:42.924Z - info: Express server listening on 3000, in development mode
+2016-04-27T08:26:26.571Z - info: Express server listening on 3000, in development mode
+2016-04-27T21:09:13.272Z - info: Express server listening on 3000, in development mode
+2016-04-28T02:12:51.882Z - info: Express server listening on 3000, in development mode
+2016-04-28T13:24:38.301Z - info: Express server listening on 3000, in development mode
+2016-04-28T18:31:56.372Z - info: Express server listening on 3000, in development mode
+2016-04-29T12:12:25.739Z - info: Express server listening on 3000, in development mode
+2016-04-29T12:13:42.292Z - info: Express server listening on 3000, in development mode
+2016-04-29T12:27:01.911Z - info: Express server listening on 3000, in development mode
+2016-04-29T12:28:23.604Z - info: Express server listening on 3000, in development mode
+2016-04-29T12:30:38.690Z - info: Express server listening on 3000, in development mode
+2016-04-29T12:37:54.133Z - info: Express server listening on 3000, in development mode
+2016-04-29T12:39:37.004Z - info: Express server listening on 3000, in development mode
+2016-04-29T12:39:46.693Z - info: Express server listening on 3000, in development mode
+2016-04-29T17:57:57.278Z - info: Express server listening on 3000, in development mode
+2016-04-29T20:08:01.080Z - info: Express server listening on 3000, in development mode
+2016-04-29T20:18:33.640Z - info: Express server listening on 3000, in development mode
+2016-04-29T20:28:03.698Z - info: Express server listening on 3000, in development mode
+2016-04-29T20:33:06.748Z - info: Express server listening on 3000, in development mode
+2016-04-29T20:38:20.354Z - info: Express server listening on 3000, in development mode
+2016-04-29T20:38:36.968Z - info: Express server listening on 3000, in development mode
+2016-04-29T20:48:27.703Z - info: Express server listening on 3000, in development mode
+2016-04-29T21:07:12.366Z - info: Express server listening on 3000, in development mode
+2016-04-29T21:54:35.635Z - info: Express server listening on 3000, in development mode
+2016-04-29T21:57:59.693Z - info: Express server listening on 3000, in development mode
+2016-04-29T22:09:17.976Z - info: Express server listening on 3000, in development mode
+2016-04-29T22:09:54.422Z - info: Express server listening on 3000, in development mode
+2016-04-29T22:11:18.885Z - info: Express server listening on 3000, in development mode
+2016-04-29T22:22:53.348Z - info: Express server listening on 3000, in development mode
+2016-05-01T03:17:49.929Z - info: Express server listening on 3000, in development mode
+2016-05-01T23:46:14.185Z - info: Express server listening on 3000, in development mode
+2016-05-02T01:30:16.588Z - info: Express server listening on 3000, in development mode
+2016-05-02T02:02:28.939Z - info: Express server listening on 3000, in development mode
+2016-05-02T02:17:54.388Z - info: Express server listening on 3000, in development mode
+2016-05-02T02:18:32.045Z - info: Express server listening on 3000, in development mode
+2016-05-02T02:27:43.364Z - info: Express server listening on 3000, in development mode
+2016-05-02T02:27:54.905Z - info: Express server listening on 3000, in development mode
+2016-05-02T02:30:36.791Z - info: Express server listening on 3000, in development mode
+2016-05-02T02:38:59.370Z - info: Express server listening on 3000, in development mode
+2016-05-02T02:45:37.647Z - info: Express server listening on 3000, in development mode
+2016-05-02T03:31:34.304Z - info: Express server listening on 3000, in development mode
+2016-05-02T03:31:42.664Z - info: Express server listening on 3000, in development mode
+2016-05-02T03:33:57.053Z - info: Express server listening on 3000, in development mode
+2016-05-02T03:34:44.821Z - info: Express server listening on 3000, in development mode
+2016-05-02T03:37:56.188Z - info: Express server listening on 3000, in development mode
+2016-05-02T03:39:02.410Z - info: Express server listening on 3000, in development mode
+2016-05-02T03:39:35.130Z - info: Express server listening on 3000, in development mode
+2016-05-02T03:47:43.961Z - info: Express server listening on 3000, in development mode
+2016-05-02T03:48:36.268Z - info: Express server listening on 3000, in development mode
+2016-05-02T03:53:22.956Z - info: Express server listening on 3000, in development mode
+2016-05-02T03:53:31.240Z - info: Express server listening on 3000, in development mode
+2016-05-02T03:56:03.984Z - info: Express server listening on 3000, in development mode
+2016-05-02T03:56:10.341Z - info: Express server listening on 3000, in development mode
+2016-05-02T03:57:26.032Z - info: Express server listening on 3000, in development mode
+2016-05-02T03:59:31.854Z - info: Express server listening on 3000, in development mode
+2016-05-02T04:01:32.095Z - info: Express server listening on 3000, in development mode
+2016-05-02T04:02:01.834Z - info: Express server listening on 3000, in development mode
+2016-05-02T04:02:45.113Z - info: Express server listening on 3000, in development mode
+2016-05-02T04:27:08.551Z - info: Express server listening on 3000, in development mode
+2016-05-02T04:27:38.275Z - info: Express server listening on 3000, in development mode
+2016-05-02T04:28:20.142Z - info: Express server listening on 3000, in development mode
+2016-05-02T04:28:32.272Z - info: Express server listening on 3000, in development mode
+2016-05-02T04:29:21.116Z - info: Express server listening on 3000, in development mode
+2016-05-02T04:29:59.009Z - info: Express server listening on 3000, in development mode
+2016-05-02T04:30:24.404Z - info: Express server listening on 3000, in development mode
+2016-05-02T04:30:29.879Z - info: Express server listening on 3000, in development mode
+2016-05-02T04:31:25.264Z - info: Express server listening on 3000, in development mode
+2016-05-02T04:31:34.074Z - info: Express server listening on 3000, in development mode
+2016-05-02T04:35:47.907Z - info: Express server listening on 3000, in development mode
+2016-05-02T04:39:44.621Z - info: Express server listening on 3000, in development mode
+2016-05-02T04:48:03.955Z - info: Express server listening on 3000, in development mode
+2016-05-02T05:27:26.587Z - info: Express server listening on 3000, in development mode
+2016-05-02T05:28:14.711Z - info: Express server listening on 3000, in development mode
+2016-05-02T05:35:43.799Z - info: Express server listening on 3000, in development mode
+2016-05-02T05:37:49.762Z - info: Express server listening on 3000, in development mode
+2016-05-02T05:38:25.053Z - info: Express server listening on 3000, in development mode
+2016-05-02T05:38:48.494Z - info: Express server listening on 3000, in development mode
+2016-05-02T05:40:40.051Z - info: Express server listening on 3000, in development mode
+2016-05-02T05:41:07.863Z - info: Express server listening on 3000, in development mode
+2016-05-02T05:41:24.104Z - info: Express server listening on 3000, in development mode
+2016-05-02T05:46:59.195Z - info: Express server listening on 3000, in development mode
+2016-05-02T05:54:43.177Z - info: Express server listening on 3000, in development mode
+2016-05-02T05:54:52.481Z - info: Express server listening on 3000, in development mode
+2016-05-02T05:55:17.315Z - info: Express server listening on 3000, in development mode
+2016-05-02T06:22:51.055Z - info: Express server listening on 3000, in development mode
+2016-05-02T06:28:23.943Z - info: Express server listening on 3000, in development mode
+2016-05-02T06:28:59.535Z - info: Express server listening on 3000, in development mode
+2016-05-02T11:20:02.953Z - info: Express server listening on 3000, in development mode
+2016-05-02T11:20:14.935Z - info: Express server listening on 3000, in development mode
+2016-05-02T11:57:11.588Z - info: Express server listening on 3000, in development mode
+2016-05-02T11:57:27.776Z - info: Express server listening on 3000, in development mode
+2016-05-02T11:58:30.871Z - info: Express server listening on 3000, in development mode
+2016-05-02T11:59:58.491Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:00:51.675Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:01:34.089Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:02:38.966Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:07:40.989Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:08:16.415Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:09:00.572Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:10:22.954Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:10:29.300Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:10:47.688Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:12:09.471Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:12:22.453Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:12:47.746Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:14:10.561Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:14:33.751Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:15:03.376Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:15:50.741Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:16:14.716Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:28:00.635Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:28:07.534Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:28:36.966Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:29:13.651Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:37:49.170Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:38:03.600Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:39:01.696Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:40:10.988Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:41:44.931Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:42:17.974Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:43:00.725Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:44:33.505Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:44:41.390Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:45:34.878Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:46:34.703Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:47:41.013Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:48:10.238Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:48:59.705Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:49:45.060Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:50:35.214Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:56:07.887Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:56:39.858Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:57:29.443Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:58:12.441Z - info: Express server listening on 3000, in development mode
+2016-05-02T12:59:38.419Z - info: Express server listening on 3000, in development mode
+2016-05-02T13:00:19.042Z - info: Express server listening on 3000, in development mode
+2016-05-02T13:02:17.910Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:05:17.680Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:05:22.874Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:06:03.806Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:07:34.283Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:16:53.661Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:17:22.896Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:20:08.589Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:20:51.077Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:21:10.970Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:21:55.980Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:24:21.982Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:25:30.580Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:26:01.476Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:26:55.306Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:29:00.366Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:33:43.945Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:34:17.052Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:36:24.007Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:37:26.731Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:40:56.997Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:41:21.308Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:44:00.364Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:44:32.152Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:47:21.967Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:47:41.411Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:48:03.819Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:48:32.263Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:49:37.400Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:53:07.151Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:54:01.484Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:56:14.774Z - info: Express server listening on 3000, in development mode
+2016-05-02T14:58:43.257Z - info: Express server listening on 3000, in development mode
+2016-05-02T15:00:51.859Z - info: Express server listening on 3000, in development mode
+2016-05-02T15:00:55.643Z - info: Express server listening on 3000, in development mode
+2016-05-02T15:01:18.133Z - info: Express server listening on 3000, in development mode
+2016-05-02T15:01:50.210Z - info: Express server listening on 3000, in development mode
+2016-05-02T15:02:52.893Z - info: Express server listening on 3000, in development mode
+2016-05-02T15:19:39.868Z - info: Express server listening on 3000, in development mode
+2016-05-02T15:19:46.296Z - info: Express server listening on 3000, in development mode
+2016-05-02T15:22:11.867Z - info: Express server listening on 3000, in development mode
+2016-05-02T15:23:07.664Z - info: Express server listening on 3000, in development mode
+2016-05-02T15:23:32.855Z - info: Express server listening on 3000, in development mode
+2016-05-02T15:23:36.034Z - info: Express server listening on 3000, in development mode
+2016-05-02T16:40:39.182Z - info: Express server listening on 3000, in development mode
+2016-05-02T16:50:05.014Z - info: Express server listening on 3000, in development mode
+2016-05-02T16:51:30.127Z - info: Express server listening on 3000, in development mode
+2016-05-02T17:29:04.540Z - info: Express server listening on 3000, in development mode
+2016-05-02T17:33:16.515Z - info: Express server listening on 3000, in development mode
+2016-05-02T17:33:33.922Z - info: Express server listening on 3000, in development mode
+2016-05-02T17:34:48.888Z - info: Express server listening on 3000, in development mode
+2016-05-02T17:35:15.123Z - info: Express server listening on 3000, in development mode
+2016-05-02T17:36:13.923Z - info: Express server listening on 3000, in development mode
+2016-05-02T17:36:21.834Z - info: Express server listening on 3000, in development mode
+2016-05-02T22:08:21.522Z - info: Express server listening on 3000, in development mode
+2016-05-02T22:09:42.959Z - info: Express server listening on 3000, in development mode
+2016-05-02T23:07:07.394Z - info: Express server listening on 3000, in development mode
+2016-05-05T08:51:16.811Z - info: Express server listening on 3000, in development mode
+2016-05-05T08:57:41.224Z - info: Express server listening on 3000, in development mode
+2016-05-05T08:59:26.445Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:00:55.200Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:02:40.517Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:04:49.033Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:05:25.419Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:05:40.489Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:12:24.719Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:13:50.356Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:14:04.544Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:16:06.668Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:17:19.620Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:17:33.020Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:17:41.181Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:18:59.948Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:19:21.076Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:20:03.557Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:21:08.560Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:24:58.340Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:26:07.410Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:28:02.559Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:28:51.831Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:29:45.154Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:30:09.655Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:30:40.634Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:31:33.216Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:33:02.956Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:33:28.359Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:37:46.376Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:37:52.089Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:38:56.409Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:39:12.293Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:39:27.508Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:39:44.066Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:39:49.034Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:40:22.392Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:41:27.493Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:41:46.100Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:42:41.016Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:42:53.210Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:45:10.109Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:45:21.132Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:45:31.968Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:46:11.811Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:47:37.567Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:47:43.073Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:47:52.244Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:48:48.919Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:48:59.050Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:49:20.952Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:50:22.564Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:50:36.109Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:50:45.021Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:50:59.004Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:52:59.050Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:53:57.375Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:54:12.507Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:55:12.635Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:55:28.413Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:56:05.140Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:56:41.192Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:57:18.321Z - info: Express server listening on 3000, in development mode
+2016-05-05T09:59:14.235Z - info: Express server listening on 3000, in development mode
+2016-05-05T10:03:05.122Z - info: Express server listening on 3000, in development mode
+2016-05-05T10:03:23.140Z - info: Express server listening on 3000, in development mode
+2016-05-05T10:03:31.493Z - info: Express server listening on 3000, in development mode
+2016-05-05T10:03:40.221Z - info: Express server listening on 3000, in development mode
+2016-05-05T10:03:50.746Z - info: Express server listening on 3000, in development mode
+2016-05-05T10:04:06.568Z - info: Express server listening on 3000, in development mode
+2016-05-06T02:59:19.021Z - info: Express server listening on 3000, in development mode
+2016-05-06T02:59:33.813Z - info: Express server listening on 3000, in development mode
+2016-05-06T03:08:55.248Z - info: Express server listening on 3000, in development mode
+2016-05-06T03:12:35.271Z - info: Express server listening on 3000, in development mode
+2016-05-06T03:14:00.870Z - info: Express server listening on 3000, in development mode
+2016-05-06T03:17:11.362Z - info: Express server listening on 3000, in development mode
+2016-05-06T03:18:25.458Z - info: Express server listening on 3000, in development mode
+2016-05-06T03:18:49.416Z - info: Express server listening on 3000, in development mode
+2016-05-06T03:25:27.767Z - info: Express server listening on 3000, in development mode
+2016-05-06T03:25:59.508Z - info: Express server listening on 3000, in development mode
+2016-05-06T03:28:42.955Z - info: Express server listening on 3000, in development mode
+2016-05-06T03:32:39.852Z - info: Express server listening on 3000, in development mode
+2016-05-06T03:32:53.529Z - info: Express server listening on 3000, in development mode
+2016-05-06T03:33:30.126Z - info: Express server listening on 3000, in development mode
+2016-05-06T05:19:45.451Z - info: Express server listening on 3000, in development mode
+2016-05-06T05:22:07.090Z - info: Express server listening on 3000, in development mode
+2016-05-06T05:24:42.683Z - info: Express server listening on 3000, in development mode
+2016-05-06T05:28:04.901Z - info: Express server listening on 3000, in development mode
+2016-05-06T05:30:05.357Z - info: Express server listening on 3000, in development mode
+2016-05-06T05:31:06.733Z - info: Express server listening on 3000, in development mode
+2016-05-06T05:35:53.427Z - info: Express server listening on 3000, in development mode
+2016-05-06T05:40:23.322Z - info: Express server listening on 3000, in development mode
+2016-05-06T06:14:22.315Z - info: Express server listening on 3000, in development mode
+2016-05-06T06:15:52.814Z - info: Express server listening on 3000, in development mode
+2016-05-06T06:16:22.714Z - info: Express server listening on 3000, in development mode
+2016-05-06T06:19:42.497Z - info: Express server listening on 3000, in development mode
+2016-05-06T06:20:32.397Z - info: Express server listening on 3000, in development mode
+2016-05-06T06:21:43.130Z - info: Express server listening on 3000, in development mode
+2016-05-06T06:40:14.014Z - info: Express server listening on 3000, in development mode
+2016-05-06T07:06:40.719Z - info: Express server listening on 3000, in development mode
+2016-05-06T07:16:25.727Z - info: Express server listening on 3000, in development mode
+2016-05-06T07:27:21.309Z - info: Express server listening on 3000, in development mode
+2016-05-06T07:27:40.454Z - info: Express server listening on 3000, in development mode
+2016-05-06T07:28:23.193Z - info: Express server listening on 3000, in development mode
+2016-05-06T07:29:32.983Z - info: Express server listening on 3000, in development mode
+2016-05-06T07:31:56.514Z - info: Express server listening on 3000, in development mode
+2016-05-06T07:35:04.866Z - info: Express server listening on 3000, in development mode
+2016-05-06T07:39:44.102Z - info: Express server listening on 3000, in development mode
+2016-05-06T07:40:58.387Z - info: Express server listening on 3000, in development mode
+2016-05-06T07:41:42.113Z - info: Express server listening on 3000, in development mode
+2016-05-06T07:42:47.245Z - info: Express server listening on 3000, in development mode
+2016-05-06T07:45:37.881Z - info: Express server listening on 3000, in development mode
+2016-05-06T07:49:21.164Z - info: Express server listening on 3000, in development mode
+2016-05-06T07:49:33.891Z - info: Express server listening on 3000, in development mode
+2016-05-06T07:57:07.390Z - info: Express server listening on 3000, in development mode
+2016-05-06T08:03:38.974Z - info: Express server listening on 3000, in development mode
+2016-05-06T09:03:24.870Z - info: Express server listening on 3000, in development mode
+2016-05-06T09:07:57.415Z - info: Express server listening on 3000, in development mode
+2016-05-06T09:19:55.814Z - info: Express server listening on 3000, in development mode
+2016-05-06T09:30:49.666Z - info: Express server listening on 3000, in development mode
+2016-05-06T09:31:19.393Z - info: Express server listening on 3000, in development mode
+2016-05-06T09:31:39.593Z - info: Express server listening on 3000, in development mode
+2016-05-06T09:31:58.354Z - info: Express server listening on 3000, in development mode
+2016-05-06T09:32:18.241Z - info: Express server listening on 3000, in development mode
+2016-05-06T09:32:55.770Z - info: Express server listening on 3000, in development mode
+2016-05-06T09:35:02.883Z - info: Express server listening on 3000, in development mode
+2016-05-06T09:47:42.294Z - info: Express server listening on 3000, in development mode
+2016-05-06T09:48:41.117Z - info: Express server listening on 3000, in development mode
+2016-05-06T09:48:55.326Z - info: Express server listening on 3000, in development mode
+2016-05-06T09:49:20.695Z - info: Express server listening on 3000, in development mode
+2016-05-06T09:49:43.369Z - info: Express server listening on 3000, in development mode
+2016-05-06T09:52:03.037Z - info: Express server listening on 3000, in development mode
+2016-05-06T09:54:29.454Z - info: Express server listening on 3000, in development mode
+2016-05-06T09:55:46.610Z - info: Express server listening on 3000, in development mode
+2016-05-06T09:56:15.994Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:09:20.042Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:12:22.604Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:12:37.978Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:12:46.562Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:13:08.335Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:13:43.786Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:20:45.416Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:21:45.433Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:23:30.813Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:23:56.134Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:27:57.899Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:28:04.295Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:28:09.850Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:28:40.901Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:29:38.946Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:30:55.009Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:31:32.022Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:31:53.568Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:32:37.056Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:33:46.684Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:37:50.695Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:38:54.812Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:45:10.615Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:46:16.424Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:56:49.714Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:57:27.063Z - info: Express server listening on 3000, in development mode
+2016-05-06T10:57:45.989Z - info: Express server listening on 3000, in development mode
+2016-05-06T11:00:02.432Z - info: Express server listening on 3000, in development mode
+2016-05-06T11:08:24.953Z - info: Express server listening on 3000, in development mode
+2016-05-06T11:09:20.354Z - info: Express server listening on 3000, in development mode
+2016-05-06T11:44:16.221Z - info: Express server listening on 3000, in development mode
+2016-05-06T11:44:43.006Z - info: Express server listening on 3000, in development mode
+2016-05-06T11:46:37.766Z - info: Express server listening on 3000, in development mode
+2016-05-06T11:50:04.260Z - info: Express server listening on 3000, in development mode
+2016-05-06T11:53:11.721Z - info: Express server listening on 3000, in development mode
+2016-05-06T11:53:28.655Z - info: Express server listening on 3000, in development mode
+2016-05-06T11:54:03.842Z - info: Express server listening on 3000, in development mode
+2016-05-06T12:02:57.099Z - info: Express server listening on 3000, in development mode
+2016-05-06T12:05:08.265Z - info: Express server listening on 3000, in development mode
+2016-05-06T12:33:03.997Z - info: Express server listening on 3000, in development mode
+2016-05-06T12:33:44.765Z - info: Express server listening on 3000, in development mode
+2016-05-06T12:34:43.422Z - info: Express server listening on 3000, in development mode
+2016-05-06T12:35:26.921Z - info: Express server listening on 3000, in development mode
+2016-05-06T12:35:54.745Z - info: Express server listening on 3000, in development mode
+2016-05-06T13:04:54.698Z - info: Express server listening on 3000, in development mode
+2016-05-06T13:11:19.567Z - info: Express server listening on 3000, in development mode
+2016-05-06T14:52:16.829Z - info: Express server listening on 3000, in development mode
+2016-05-06T16:31:54.109Z - info: Express server listening on 3000, in development mode
+2016-05-06T16:51:42.353Z - info: Express server listening on 3000, in development mode
+2016-05-06T16:51:59.330Z - info: Express server listening on 3000, in development mode
+2016-05-06T16:52:12.549Z - info: Express server listening on 3000, in development mode
+2016-05-06T16:53:03.636Z - info: Express server listening on 3000, in development mode
+2016-05-06T16:53:09.268Z - info: Express server listening on 3000, in development mode
+2016-05-06T16:53:14.822Z - info: Express server listening on 3000, in development mode
+2016-05-06T16:54:40.216Z - info: Express server listening on 3000, in development mode
+2016-05-06T19:18:05.841Z - info: Express server listening on 3000, in development mode
+2016-05-06T19:18:42.265Z - info: Express server listening on 3000, in development mode
+2016-05-06T19:20:00.787Z - info: Express server listening on 3000, in development mode
+2016-05-06T19:20:05.768Z - info: Express server listening on 3000, in development mode
+2016-05-06T19:20:39.750Z - info: Express server listening on 3000, in development mode
+2016-05-06T19:21:15.133Z - info: Express server listening on 3000, in development mode
+2016-05-06T19:21:36.108Z - info: Express server listening on 3000, in development mode
+2016-05-06T23:01:26.563Z - info: Express server listening on 3000, in development mode
+2016-05-06T23:01:56.413Z - info: Express server listening on 3000, in development mode
+2016-05-06T23:03:41.479Z - info: Express server listening on 3000, in development mode
+2016-05-06T23:04:02.094Z - info: Express server listening on 3000, in development mode
+2016-05-06T23:04:08.686Z - info: Express server listening on 3000, in development mode
+2016-05-06T23:05:38.222Z - info: Express server listening on 3000, in development mode
+2016-05-06T23:07:30.936Z - info: Express server listening on 3000, in development mode
+2016-05-06T23:07:39.334Z - info: Express server listening on 3000, in development mode
+2016-05-06T23:08:04.868Z - info: Express server listening on 3000, in development mode
+2016-05-06T23:31:48.197Z - info: Express server listening on 3000, in development mode
+2016-05-06T23:32:06.045Z - info: Express server listening on 3000, in development mode
+2016-05-06T23:32:22.070Z - info: Express server listening on 3000, in development mode
+2016-05-06T23:35:38.170Z - info: Express server listening on 3000, in development mode
+2016-05-06T23:35:49.684Z - info: Express server listening on 3000, in development mode
+2016-05-06T23:36:20.286Z - info: Express server listening on 3000, in development mode
+2016-05-06T23:40:44.092Z - info: Express server listening on 3000, in development mode
+2016-05-06T23:43:56.842Z - info: Express server listening on 3000, in development mode
+2016-05-06T23:48:07.422Z - info: Express server listening on 3000, in development mode
+2016-05-06T23:51:34.453Z - info: Express server listening on 3000, in development mode
+2016-05-06T23:52:13.714Z - info: Express server listening on 3000, in development mode
+2016-05-06T23:52:49.581Z - info: Express server listening on 3000, in development mode
+2016-05-07T01:40:06.424Z - info: Express server listening on 3000, in development mode
+2016-05-07T01:48:44.744Z - info: Express server listening on 3000, in development mode
+2016-05-10T15:02:03.685Z - info: Express server listening on 3000, in development mode
+2016-05-10T15:42:21.819Z - info: Express server listening on 3000, in development mode
+2016-05-11T21:23:20.667Z - info: Express server listening on 3000, in development mode
+2016-05-11T21:26:37.057Z - info: Express server listening on 3000, in development mode
+2016-05-11T22:12:35.883Z - info: Express server listening on 3000, in development mode
+2016-05-12T00:46:30.643Z - info: Express server listening on 3000, in development mode
+2016-05-12T00:59:39.510Z - info: Express server listening on 3000, in development mode
+2016-05-12T01:26:25.605Z - info: Express server listening on 3000, in development mode
+2016-05-12T17:13:59.268Z - info: Express server listening on 3000, in development mode
+2016-05-12T18:22:58.825Z - info: Express server listening on 3000, in development mode
+2016-05-12T18:27:19.403Z - info: Express server listening on 3000, in development mode
+2016-05-12T18:33:55.667Z - info: Express server listening on 3000, in development mode
+2016-05-12T19:39:37.172Z - info: Express server listening on 3000, in development mode

@@ -1,0 +1,20 @@
+
+#section_login{
+  background: url("../../../assets/images/background/login.png");
+  color: #fff;
+}
+
+.login_dialog{
+  padding:0px 50px 20px 50px;
+  background-color: #fff;
+  width: 323px;
+  height: 414px;
+  border: 2px transparent;
+  border-radius: 5px;
+  float: none;
+  margin:0px auto;
+  text-align: left;
+}
+.login_button{
+  color:#fff; background-color: #c46c87; margin-top: 20px;
+}

@@ -1,0 +1,140 @@
+/*
+	Todd Motto Labs
+	URL: www.toddmotto.com
+*/
+
+body {
+	
+}
+a,
+a:hover {
+	text-decoration:none;
+}
+ul,
+ol {
+	list-style:none;
+}
+
+/*------------------------------------*\
+    Flaunt JS Navigation
+\*------------------------------------*/
+
+.nav { margin:0; padding:0;
+	position:relative;
+	display:inline-block;
+	font-size:18px;
+	font-weight:normal;
+}
+.nav-list {
+	text-align:left;
+}
+.nav-item {
+	float:left;
+	*display:inline;
+	zoom:1;
+	position:relative;
+}
+.nav-item a {
+	display:block;
+	color:#EDD6D7; margin:0 35px;
+	padding:18px 0;
+	border-bottom:2px solid transparent;
+}
+.nav-item > a:hover {
+	color:#fff; border-bottom:2px solid #fff;
+}
+.nav-item:hover .nav-submenu {
+	display:block;
+}
+/* Navigation submenu */
+.nav-submenu {
+	display:none;
+	position:absolute;
+	left:0;
+	width:180px;
+}
+.nav-submenu-item a {
+	background:#8B2770;
+	border-bottom:1px solid #9A337E;
+	display:block;
+	padding:15px;
+}
+.nav-submenu-item a:hover {
+	background:#932C77;
+}
+/* Mobile navigation */
+.nav-mobile {
+	display:none; /* Hide from browsers that don't support media queries */
+	cursor:pointer;
+	position:absolute;
+	top:0;
+	right:0;
+	background:#965B4C url(../images/nav.svg) no-repeat center center;
+	background-size:18px;
+	height:50px;
+	width:50px; border-radius:4px;
+}
+/* Mobile navigation, clickable area for revealing <ul> */
+.nav-click {
+	position:absolute;
+	top:0;
+	right:0;
+	display:none;
+	border-left:1px solid #8B2870;
+	height:49px;
+	width:50px;
+	cursor:pointer;
+}
+.nav-click i {
+	display:block;
+	height:48px;
+	width:48px;
+	/*background:&#43;*/
+	background:url(../images/plus_icon.png) no-repeat center center;
+	background-size:20px;
+}
+.nav-click:hover {
+	background-color:#6E1656;
+}
+.nav-rotate {
+background:url(../images/minus_icon.png) no-repeat center center !important;
+}
+
+/*------------------------------------*\
+    Media Queries
+\*------------------------------------*/
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+	.nav-mobile {
+		display:block;
+	}
+	.nav {
+		width:100%;
+		padding:50px 0 0; margin:5px 0 0 0;
+	}
+	.nav-list {
+		display:none;
+	}
+	.nav-item {
+		width:100%;
+		float:none;
+	}
+	.nav-item > a {
+		padding:15px; background:none;
+	}
+	.nav-click {
+		display:block;
+	}
+	.nav-mobile-open {
+		border-radius:5px 5px 0 0;
+		-webkit-border-radius:5px 5px 0 0;
+		-moz-border-radius:5px 5px 0 0;
+	}
+	.nav-item:hover .nav-submenu {
+		display:none;
+	}
+	.nav-submenu {
+		position:static;
+		width:100%;
+	}
+}

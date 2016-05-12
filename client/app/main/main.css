@@ -1,0 +1,31 @@
+#section-header{
+  background: url("../../assets/images/background/section-header.jpg");
+  color: #fff;
+}
+#section-pricing{
+  padding-bottom: 80px;
+}
+#section-video{
+  background: url("../../assets/images/general/images/1.jpg");
+  min-height: 600px;
+  background-color:rgba(128, 0, 0, 0.5);
+  color: #fff;
+}
+#section-media{
+  /*background-color:rgba(128, 0, 0, 0.1);*/
+  background-color:#f9f0f3;
+  padding-top: 1px;
+  padding-bottom: 80px;
+  min-height: 615px;
+}
+#section-impact{
+  background: url("../../assets/images/general/images/3.jpg");
+  min-height: 541px;
+}
+#section-faq{
+  min-height: 592px;
+}
+#section-talk{
+  background: url("../../assets/images/background/talk.png");
+  min-height: 608px;
+}

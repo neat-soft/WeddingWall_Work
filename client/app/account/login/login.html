@@ -1,0 +1,33 @@
+<section id="section_login" class="section" style="height:898px;">
+	<div  class="container mask-red">
+		<div ng_include='"components/navbar/navbar.html"' > </div>
+		<div class="color_white opensans my_font_size_30pt bold" style="margin-top: 100px;">
+				Log in
+		</div>
+		<div class="col-sm-4 login_dialog align-center" style="margin-top: 60px;" >
+		 <form style="width:100%" ng-model="form" name="loginForm" ng-submit="login(form)" novalidate="true">
+			<button class="btn button align-center" style="color:#616161; border-color: #c46c87; margin-top: 48px;"> Log In via Facebook</button>
+			
+			<div class="form_section_wrap" style = "margin-top:35px;">
+				<label>Email</label>
+				<div class="form_input_wrap color_black2">
+				  <input class="color_black2" type="email" name="email" placeholder="Enter your email" ng-model="user.email" ng-maxlength="150" required>
+				  	<p ng-show="loginForm.email.$error.required && !loginForm.email.$pristine" class="help-block">Email is  required.</p>
+          	<p ng-show="loginForm.email.$error.maxlength" class="help-block">Email Name is  too long.</p>
+			    </div>
+			</div>
+
+			<div class="form_section_wrap">
+				<label>Password</label>
+				<div class="form_input_wrap color_black2">
+				  <input class="color_black2" type="password" name="password" placeholder="Your Password" ng-model="user.password" ng-maxlength="150" required>
+				  <p ng-show="loginForm.password.$error.required && !loginForm.password.$pristine" class="help-block">Password is  required.</p>
+          
+			    </div>
+			</div>
+			<button type="submit" class="btn align-center login_button" ng-disabled="loginForm.$invalid"> Log In</button>
+			<p style="color:#bebebe; margin-top: 20px;">Forgot your password?</p>
+		</form>
+		</div>
+	</div>	
+</section>

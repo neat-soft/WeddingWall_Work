@@ -1,0 +1,506 @@
+<section id="section-header" class="section"  style="height:898px;">
+	<div class="mask">
+		<div ng_include='"components/navbar/navbar.html"' > </div>
+		
+			<div class="title title-header my_font_size_48pt color_white">
+				SOCIAL MEDIA SLIDESHOW FOR WEDDINGS
+			</div>
+			<div class="col-sm-8 section-fit-center" >
+				<div class="col-sm-4 section-header-icons">
+					<img src="../assets/images/general/icons/snapchat.png">
+					<p>Ability to use<br>SnapChat</p>
+				</div>
+				<div class="col-sm-4 section-header-icons">
+					<img src="../assets/images/general/icons/custom_video.png">
+					<p>Customizable videos<br>that you can share</p>
+				</div>
+				<div class="col-sm-4 section-header-icons">
+					<img src="../assets/images/general/icons/human_moderation.png">
+					<p>Human<br>Moderation</p>
+				</div>
+			</div>
+		
+		<div class="section-header-go">
+			<div style="width: 350px; margin: auto;">
+				<div style="margin-top: 38px; margin-bottom: 38px;">
+					{{Promo_Tag}}
+				</div>
+				<div style="float: left;">
+					Try Your Hashtag-it's free!
+				</div>
+				<button class="btn section-header-go-btn">GO</button>
+			</div>	
+		</div>
+	</div>
+</section>
+
+<!--2 -->
+<section class="section">
+	<div style ="height: 140px">
+		<p class="title color_black my_font_size_30pt bold" >How it works?</p>
+	</div>
+	<div class="container" >
+		<div class="section-fit-center" >
+			<div class="col-sm-4 section-header-icons">
+				<img src="../assets/images/general/icons/how-it-works/step1.png">
+				<p style="color: #616161";>Signup and create<br>your worn<br><strong>#WeddingWall!</strong></p>
+			</div>
+			<div class="col-sm-4 section-header-icons">
+				<img src="../assets/images/general/icons/how-it-works/step2.png">
+				<p style="color: #616161";>Connect your laptop to a Projector<br>or TV at the venue<br>and <strong>enjoy the show!</strong></p>
+			</div>
+			<div class="col-sm-4 section-header-icons">
+				<img src="../assets/images/general/icons/how-it-works/step3.png">
+				<p style="color: #616161";>Create and share a <br>customized videos<br><strong>with friends and family!</strong></p>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-12">
+		<img class="img" src="../assets/images/background/learn-more.png" style="margin-top:74px;text-align: center;">
+	</div>
+</section>
+
+<!-- How it works -->
+<section id="section-pricing" class="section">
+	<div class="container">
+		<p class="title color_black2 my_font_size_30pt bold" >Select your wedding wall</p>
+		<div class= "section-fit-center">
+
+			<!-- Silver -->
+			<div class = "select-wedding-wall col-sm-4" style="margin-top: 45px;">
+					<div class = "header silver-style-colors" >	
+						<div class ="type my_font_size_24pt">SILVER</div>
+						<div class ="pvalue my_font_size_20pt"><strike>${{SilverCross}}</strike></div>
+						<div class ="cvalue my_font_size_48pt">${{SilverFinal}}</div>
+					</div>
+					<div class ="body" style="min-height: 360px;">
+						<p ng-repeat="silver_feature in SilverFeatures"  >{{silver_feature}}</p>
+						<div class="start-my-wall">
+							<button ng-click="create_weddingwall()" id="silver-start-now-button" class="btn buttons">START MY WALL NOW</button>
+						</div>
+					</div>
+			</div>
+
+			<!-- Platinum -->
+			<div class = "select-wedding-wall col-sm-4">
+					<div class = "header platinum-style-colors">	
+						<div class ="type my_font_size_24pt">PLATINUM</div>
+						<div class ="pvalue my_font_size_20pt"><strike>${{PlatinumCross}}</strike></div>
+						<div class ="cvalue my_font_size_48pt">${{PlatinumFinal}}</div>
+					</div>
+					<div class ="body" style="min-height: 450px;">
+					<p ng-repeat="platinum_feature in PlatinumFeatures"  >{{platinum_feature}}</p>
+						<div class="start-my-wall">
+							<button  ng-click="create_weddingwall()" id="platinum-start-now-button" class="btn buttons">START MY WALL NOW</button>
+						</div>
+					</div>
+			</div>
+			<!-- Gold -->
+			<div class = "select-wedding-wall col-sm-4 gold-wall" >
+					<div class = "header gold-style-colors" >	
+						<div class ="type my_font_size_24pt">GOLD</div>
+						<div class ="pvalue my_font_size_20pt"><strike>${{GoldCross}}</strike></div>
+						<div class ="cvalue my_font_size_48pt">${{GoldFinal}}</div>
+					</div>
+					<div class ="body" style="min-height: 360px;">
+						<p ng-repeat="gold_feature in GoldFeatures"  >{{gold_feature}}</p>
+							<div class="start-my-wall">
+								<button ng-click="create_weddingwall()"  id="gold-start-now-button" class="btn buttons">START MY WALL NOW</button>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="section-video" class="section" >
+	<div class="mask-red">
+		<div class="text-video">
+			<div class="color_white opensans my_font_size_48pt bold" style="margin-top: 98px; text-transform: uppercase;">
+					like no other
+			</div>		
+			<span class="color_white opensans my_font_size_20pt">See how social wedding wall makes your wedding an experience 
+			like no other</span>
+			<br>
+			<a href="https://www.youtube.com/watch?v=aBYWGjIzvyw" class="">
+				<i class="fa fa-play-circle" style="color:#e0d6d8;font-size:80px; margin-top:76px;"></i>
+			</a>	
+		</div>
+	</div>	
+</section>
+
+<div class="section-header-icons">
+	<div class="color_black opensans my_font_size_30pt bold" style="margin-top:70px;">
+			Satisfied customers
+	</div>
+	<div class="section main-container" style="opacity: 1; height: 638px;">
+  <div class="resolution-wrapper">
+      <div class="carousel-container theta-carousel" tabindex="0" style="outline: none; overflow: hidden; position: relative;">
+      <div class="theta-carousel-inner-container" style="width: 1920px; height: 885px; transform-style: preserve-3d; overflow: hidden; perspective: 1000px; transform: translate3d(0px, 0px, 100000px) scale(0.198958); left: -769px; top: -123.5px; position: relative;">
+      <style type="text/css">
+
+    img {
+        vertical-align: middle;
+    }
+
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .ex-item {
+        height: 500px;
+        width: 700px;
+        display: none;
+        overflow: hidden;
+        border: 7px solid white;
+        background-color: #5EBDC4;
+    }
+
+    .ex-item .round-button {
+        font-size: 45px;
+        height: 200px;
+        width: 200px;
+        background: rgba(71, 160, 71, 0.65);
+        position: relative;
+        top: -100px;
+        border-radius: 100px;
+        padding-left: 30px;
+        padding-top: 27px;
+        right: -600px;
+        cursor: pointer;
+    }
+
+    .ex-item:hover .round-button {
+        font-size: 64px;
+        height: 300px;
+        width: 300px;
+        background: rgba(71, 160, 71, 0.85);
+        position: relative;
+        right: -550px;
+        top: -150px;
+        border-radius: 150px;
+        padding-left: 45px;
+        padding-top: 41px;
+    }
+
+    .button-hover-transition {
+        -webkit-transition: all 0.5s cubic-bezier(0.42, 0, 0.15, 1.61);
+        -moz-transition: all 0.5s cubic-bezier(0.42, 0, 0.15, 1.61);
+        -ms-transition: all 0.5s cubic-bezier(0.42, 0, 0.15, 1.61);
+        -o-transition: all 0.5s cubic-bezier(0.42, 0, 0.15, 1.61);
+    }
+    </style>
+<script id="popupLayout" type="text/mustache">
+    <div class="close-btn" style="background: white;
+          background: white;
+          position: absolute;
+          right: -40px;
+          width: 80px;
+          height: 80px;
+          top: -40px;
+          border-radius: 40px;
+          padding-top: 45px;
+          padding-left: 14px;
+          font-size: 18px;">
+        <i class="fa fa-close fa-lg" style="cursor: pointer;"></i>
+    </div>
+    <img style="border: 7px solid white;" width="725" height="562" src="{{.}}" />
+</script>
+<div style="height: 500px; position: absolute; width: 100%;">
+    
+<div class="ex-item theta-carousel-element" style="position: absolute; opacity: 0; display: none; box-shadow: rgb(0, 0, 0) 0px 0px 165px -13px; transform: translate3d(-529.11px, 199.5px, -568.467px) scale(0.6) rotate3d(0, 1, 0, 43.0289deg) rotate3d(0, 0.3, 0, 10deg); z-index: 5;">
+
+    <div style="height: 500px; width: 700px; background-repeat: no-repeat; background-position: center; background-size: cover; background: url(../assets/images/general/images/1.jpg)">
+    </div>
+</div>
+<div class="ex-item theta-carousel-element" style="position: absolute; opacity: 0; display: none; box-shadow: rgb(0, 0, 0) 0px 0px 165px -13px; transform: translate3d(-504.52px, 199.5px, -558.774px) scale(0.6) rotate3d(0, 1, 0, 43.0235deg) rotate3d(0, 0.3, 0, 10deg); z-index: 11;">
+    
+    
+    <div style="height: 500px; width: 700px; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../assets/images/general/images/2.jpg)">
+
+    </div>
+</div>
+<div class="ex-item theta-carousel-element" style="position: absolute; opacity: 0; display: none; box-shadow: rgb(0, 0, 0) 0px 0px 165px -13px; transform: translate3d(-532.219px, 199.5px, -569.692px) scale(0.6) rotate3d(0, 1, 0, 43.029deg) rotate3d(0, 0.3, 0, 10deg); z-index: 1;">
+    
+    
+    <div style="height: 500px; width: 700px; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../assets/images/general/images/3.jpg)">
+
+    </div>
+</div>
+<div class="ex-item theta-carousel-element" style="position: absolute; opacity: 0; display: none; box-shadow: rgb(0, 0, 0) 0px 0px 165px -13px; transform: translate3d(-529.38px, 199.5px, -568.573px) scale(0.6) rotate3d(0, 1, 0, 43.0289deg) rotate3d(0, 0.3, 0, 10deg); z-index: 4;">
+    
+    
+    <div style="height: 500px; width: 700px; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../assets/images/general/images/1.jpg)">
+
+    </div>
+</div>
+<div class="ex-item theta-carousel-element" style="position: absolute; opacity: 0.128693; display: none; box-shadow: rgb(0, 0, 0) 0px 0px 165px -13px; transform: translate3d(-429.547px, 199.5px, -529.245px) scale(0.612896) rotate3d(0, 1, 0, 42.9493deg) rotate3d(0, 0.3, 0, 8.71307deg); z-index: 22;">
+    
+    
+    <div style="height: 500px; width: 700px; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../assets/images/general/images/1.jpg)">
+
+    </div>
+    
+</div>
+<div class="ex-item theta-carousel-element" style="position: absolute; opacity: 0; display: block; box-shadow: rgb(0, 0, 0) 0px 0px 165px -13px; transform: translate3d(-465.113px, 199.5px, -543.246px) scale(0.6) rotate3d(0, 1, 0, 42.9961deg) rotate3d(0, 0.3, 0, 10deg); z-index: 16;">
+    
+    
+    <div style="height: 500px; width: 700px; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../assets/images/general/images/1.jpg)">
+
+    </div>
+    
+</div>
+<div class="ex-item theta-carousel-element" style="position: absolute; opacity: 0.488; display: block; box-shadow: rgb(0, 0, 0) 0px 0px 165px -13px; transform: translate3d(-279.909px, 199.5px, -470.683px) scale(0.6512) rotate3d(0, 1, 0, 42.4511deg) rotate3d(0, 0.3, 0, 5.12deg); z-index: 26;">
+    
+    
+    <div style="height: 500px; width: 700px; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../assets/images/general/images/1.jpg)">
+
+    </div>
+    
+</div>
+<div class="ex-item theta-carousel-element" style="position: absolute; opacity: 0.784; display: block; box-shadow: rgb(0, 0, 0) 0px 0px 165px -13px; transform: translate3d(-52.2114px, 199.5px, -384.402px) scale(0.6976) rotate3d(0, 1, 0, 40.1397deg) rotate3d(0, 0.3, 0, 2.16deg); z-index: 31;"1>
+    
+    
+    <div style="height: 500px; width: 700px; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../assets/images/general/images/1.jpg)">
+
+    </div>
+    
+</div>
+<div class="ex-item theta-carousel-element" style="position: absolute; opacity: 0.936; display: block; box-shadow: rgb(0, 0, 0) 0px 0px 165px -13px; transform: translate3d(182.123px, 199.5px, -305.001px) scale(0.7584) rotate3d(0, 1, 0, 33.7472deg) rotate3d(0, 0.3, 0, 0.64deg); z-index: 35;">
+    
+    
+    <div style="height: 500px; width: 700px; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../assets/images/general/images/1.jpg)">
+
+    </div>
+    
+</div>
+<div class="ex-item theta-carousel-element" style="position: absolute; opacity: 0.992; display: block; box-shadow: rgb(0, 0, 0) 0px 0px 165px -13px; transform: translate3d(405.151px, 199.5px, -249.741px) scale(0.8528) rotate3d(0, 1, 0, 20.3481deg) rotate3d(0, 0.3, 0, 0.08deg); z-index: 36;">
+    <div style="height: 500px; width: 700px; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../assets/images/general/images/1.jpg)">
+    </div>
+</div>
+<div class="ex-item theta-carousel-element theta-current-item" style="position: absolute; opacity: 1; display: block; box-shadow: rgb(0, 0, 0) 0px 0px 165px -13px; transform: translate3d(617px, 199.5px, -180px) rotate3d(0, 1, 0, -0.0121965deg) rotate3d(0, 0.3, 0, 0deg); z-index: 38;">
+    <div style="height: 500px; width: 700px; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../assets/images/general/images/1.jpg)">
+    </div>
+</div>
+<div class="ex-item theta-carousel-element" style="position: absolute; opacity: 0.992; display: block; box-shadow: rgb(0, 0, 0) 0px 0px 165px -13px; transform: translate3d(828.849px, 199.5px, -249.741px) scale(0.8528) rotate3d(0, 1, 0, -20.3675deg) rotate3d(0, 0.3, 0, 0.08deg); z-index: 37;">    
+    <div style="height: 500px; width: 700px; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../assets/images/general/images/1.jpg)">
+    </div>
+</div>
+<div class="ex-item theta-carousel-element" style="position: absolute; opacity: 0.936; display: block; box-shadow: rgb(0, 0, 0) 0px 0px 165px -13px; transform: translate3d(1051.88px, 199.5px, -305.001px) scale(0.7584) rotate3d(0, 1, 0, -33.7577deg) rotate3d(0, 0.3, 0, 0.64deg); z-index: 34;">
+    <div style="height: 500px; width: 700px; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../assets/images/general/images/1.jpg)">
+    </div>
+</div>
+<div class="ex-item theta-carousel-element current" style="position: absolute; opacity: 0.784; display: block; box-shadow: rgb(0, 0, 0) 0px 0px 165px -13px; transform: translate3d(1286.21px, 199.5px, -384.402px) scale(0.6976) rotate3d(0, 1, 0, -40.144deg) rotate3d(0, 0.3, 0, 2.16deg); z-index: 32;">    
+    <div style="height: 500px; width: 700px; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../assets/images/general/images/1.jpg)">
+    </div>
+</div>
+<div class="ex-item theta-carousel-element" style="position: absolute; opacity: 0.488; display: block; box-shadow: rgb(0, 0, 0) 0px 0px 165px -13px; transform: translate3d(1513.91px, 199.5px, -470.683px) scale(0.6512) rotate3d(0, 1, 0, -42.4524deg) rotate3d(0, 0.3, 0, 5.12deg); z-index: 27;">    
+    <div style="height: 500px; width: 700px; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../assets/images/general/images/1.jpg)">
+    </div>
+</div>
+<div class="ex-item theta-carousel-element" style="position: absolute; opacity: 0; display: block; box-shadow: rgb(0, 0, 0) 0px 0px 165px -13px; transform: translate3d(1699.11px, 199.5px, -543.246px) scale(0.6) rotate3d(0, 1, 0, -42.9963deg) rotate3d(0, 0.3, 0, 10deg); z-index: 15;">    
+    <div style="height: 500px; width: 700px; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../assets/images/general/images/1.jpg)">
+    </div>
+</div>
+<div class="ex-item theta-carousel-element" style="position: absolute; opacity: 0; display: none; box-shadow: rgb(0, 0, 0) 0px 0px 165px -13px; transform: translate3d(1765.84px, 199.5px, -569.542px) scale(0.6) rotate3d(0, 1, 0, -43.029deg) rotate3d(0, 0.3, 0, 10deg); z-index: 2;">
+    <div style="height: 500px; width: 700px; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../assets/images/general/images/1.jpg)">
+    </div>
+</div>
+<div class="ex-item theta-carousel-element" style="position: absolute; opacity: 0.0269854; display: none; box-shadow: rgb(0, 0, 0) 0px 0px 165px -13px; transform: translate3d(1692.26px, 199.5px, -540.547px) scale(0.602699) rotate3d(0, 1, 0, -42.989deg) rotate3d(0, 0.3, 0, 9.73015deg); z-index: 18;">
+    <div style="height: 500px; width: 700px; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../assets/images/general/images/1.jpg)">
+    </div>
+</div>
+<div class="ex-item theta-carousel-element" style="position: absolute; opacity: 0; display: none; box-shadow: rgb(0, 0, 0) 0px 0px 165px -13px; transform: translate3d(1750.02px, 199.5px, -563.305px) scale(0.6) rotate3d(0, 1, 0, -43.0271deg) rotate3d(0, 0.3, 0, 10deg); z-index: 9;">
+    <div style="height: 500px; width: 700px; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../assets/images/general/images/1.jpg)">
+    </div>
+</div>
+<div class="ex-item theta-carousel-element" style="position: absolute; opacity: 0; display: none; box-shadow: rgb(0, 0, 0) 0px 0px 165px -13px; transform: translate3d(1744.9px, 199.5px, -561.287px) scale(0.6) rotate3d(0, 1, 0, -43.0257deg) rotate3d(0, 0.3, 0, 10deg); z-index: 10;">
+    <div style="height: 500px; width: 700px; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(../assets/images/general/images/1.jpg)">
+    </div>
+</div>
+<div class="ex-item theta-carousel-element" style="position: absolute; opacity: 0; display: none; box-shadow: rgb(0, 0, 0) 0px 0px 165px -13px; transform: translate3d(1700.68px, 199.5px, -543.865px) scale(0.6) rotate3d(0, 1, 0, -42.9978deg) rotate3d(0, 0.3, 0, 10deg); z-index: 14;">    
+    <div style="height: 500px; width: 700px; background-repeat: no-repeat; background-position: center; background-size: cover; background-image: url(Images/content/cars/39.jpg)">
+
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>		
+</section>
+
+
+<!--Media --> 
+<section id="section-media" class="secction"> 
+<div class="container">   
+<div class="color_black opensans my_font_size_30pt bold" style="margin-top:70px;" >       Us in the media   </div>
+
+	<!-- Instagram -->
+	<div class="col-sm-5 media-contents">
+			<div class="instagram-header background-color v-center">
+				<div class="v-center-content" style="padding: 10px;">
+				<i class="color_white my_font_size_36pt fa fa-instagram " style="float:left;" aria-hidden="true"></i>
+				<span >WeddingWall</span>
+				<span style="float:right">Follow</span>
+				</div>
+			</div>
+			<div class="body instagram-body">
+				<div class="post-thumb">
+					<img src="../assets/images/general/images/picture.png" style="width: 200px; height:  200px; ">
+				</div >
+				<div class="entry-content my_font_size color_grey ">
+					<p>These ethereal nuptials set the bar high for backyard weddings...</p>
+				</div>
+			</div>
+	</div>
+
+	<!-- Twitter -->
+	<div class="col-sm-5 media-contents">
+					<div class = "twitter-header background-color v-center ">
+						<div class="v-center-content">
+							<i class="my_font_size_36pt color_white fa fa-twitter"  aria-hidden="true"></i>
+						</div>
+					</div>
+					<div class="twitter-body">
+						<div class="col-sm-12" style="padding: 0px">
+						<span class="color_black" style="float:left;">@Wedding_Wall</span>
+						<span class ="color_pink" style="float:right;">Follow</span>
+						</div>
+						<!-- <div class="entry-content"> -->
+							<p style="margin-top: 50px;">These ethereal nuptials set the bar high for backyard weddings...</p>
+						<!-- </div> -->
+					</div>
+		</div>
+</div>
+</section>
+
+<!-- Impact Section -->
+<section id="section-impact" class="section">
+<div class="mask-red">
+	<div class="container">
+		<div class="color_white opensans my_font_size_30pt bold" style="margin-top:70px;">
+			{{SocialImpact.title}}
+		</div>
+		<br>
+		<span class="color_white opensans my_font_size_24pt" style="margin-top: 72px; text-transform: uppercase;">{{SocialImpact.tag_line}}</span>
+		<br>
+		<br>
+		<br>
+		<span class = "color_white my_font_size_20pt"style="text-align: left;margin-top:75px;">{{SocialImpact.description}}</span>
+	</div>
+	</div>
+</section>
+
+<section id="section-faq" class="section">
+	<div class="container">
+		<div class="color_black opensans my_font_size_30pt bold" style="margin-top:70px;">
+			FAQ
+		</div>
+		<div class = "col-sm-12">
+			<table style="width:100%;">
+				<tbody>
+					<tr>
+						<td style="width: 45%;">
+						<p class = "my_font_size_20pt color_black" style="text-align: left;" ng-repeat="question in Questions"  >{{question}}</p>
+						</td>
+						<td style="width: 5%;">
+						</td>
+						<td style="width: 5%;">
+							<hr style="border-left:1px solid #000;height:400px;"></hr>
+						</td>
+						<td style="width: 45%;">
+							<p class = "my_font_size_20pt color_black" style="text-align: left;">{{Questions[0]}}</p>
+							<p class = "my_font_size_20pt color_black2" style="text-align: left;">{{Answers[0]}}/p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+</section>
+
+<section id="section-talk" class="section">
+<div class="mask-red">
+	<div class="container">	
+		<div class="color_white opensans my_font_size_30pt bold" style="margin-top:70px;">
+			Let`s talk
+		</div>
+
+		<div class="col-sm-4" >
+			<ul>
+			<li >
+				<div style="display: inline-block;">
+				<div class="social-pack-icons">
+	    		<i class="my_font_size_30pt color_white_trans fa fa-facebook-square" style="background-color: transparent;"></i>
+	    	</div>
+	    	<div class="social-pack-desc">
+	    		<span class = "color_white_trans my_font_size_20pt">@{{SocialMediaAccounts.facebook}}</span>
+	    	</div>
+	    	</div>
+	    </li>
+
+	    <li>
+	    <div style="display: inline-block;">
+				<div class="social-pack-icons">
+	    		<i class="my_font_size_30pt color_white_trans fa fa-instagram" style="background-color: transparent;"></i>
+	    	</div>
+	    	<div class="social-pack-desc">
+	    		<span class = "color_white_trans my_font_size_20pt">@{{SocialMediaAccounts.instagram}}</span>
+	    	</div>
+	    </div>
+	    </li>
+
+	    <li>
+	    <div style="display: inline-block;">
+				<div class="social-pack-icons">
+		    		<i class="my_font_size_30pt color_white_trans fa fa-twitter-square" style="background-color: transparent;"></i>
+		    	</div>
+		    	<div class="social-pack-desc">
+		    		<span class = "color_white_trans my_font_size_20pt">@{{SocialMediaAccounts.twitter}}</span>
+		    	</div>
+		    </div>
+	    </li>
+
+	    <li>
+ 	    <div style="display: inline-block;">
+				<div class="social-pack-icons">
+		    	<i class="my_font_size_30pt color_white_trans fa fa-pinterest-square" style="background-color: transparent;"></i>
+		    </div>
+		    <div class="social-pack-desc">
+		    	<span class = "color_white_trans my_font_size_20pt">@{{SocialMediaAccounts.pinterest}}</span>
+		    </div>
+		   </div>
+	    </li>
+		</div>
+
+		<div class="col-sm-4" >
+		<form name="form" ng-submit="send(form)">
+	    <div class="form_section_wrap">
+				<div class="form_input_wrap">
+				  <input type="text" name="textfield" placeholder="Name" ng-maxlength="150">
+			  </div>
+			</div>
+
+			<div class="form_section_wrap">
+				<div class="form_input_wrap">
+				  <input type="text" name="textfield" placeholder="Email" ng-maxlength="150">
+			  </div>
+			</div>
+
+			<div class="form_section_wrap">
+				<div class="form_input_wrap">
+				  <input type="text" name="textfield" placeholder="Text" ng-maxlength="150">
+			  </div>
+			</div>
+      <button id="send-button" class="btn buttons">SEND</button>
+		</div>
+
+	</div>	
+</div>
+</section>
+
+<section id="header-section" class="section">
+<div ng_include='"components/footer/footer.html"' > </div>
+</section>

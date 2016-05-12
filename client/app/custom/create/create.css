@@ -1,0 +1,18 @@
+.create_album_dialog{
+  background-color: #fff;
+  padding: 26px;
+  /*width: 621px;*/
+  min-height: 305px;
+  color: #616161;
+  margin-top:50px;
+  border: 2px transparent;
+  border-radius: 5px;
+}
+
+#create_page_background{
+  background: url("../../assets/images/background/create_page_background.png");
+}
+.limit-overflow{
+	max-height: 180px;
+	overflow-y:scroll; 
+}
