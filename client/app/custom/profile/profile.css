@@ -90,8 +90,8 @@ body { /*background:url(../../assets/images/background/create_page_background.pn
 .general_info_section_col1 h2, .general_info_section_col2 h2 { margin:0 0 18px 0; padding:0; font-size:20px; font-weight:normal; color:#616161; text-align:center; display:block;}
 .form_section { margin:0; padding:0;}
 .form_section_wrap { margin:0 0 28px 0; padding:0;}
-.form_section_wrap label { margin:0; padding:0 0 3px 0; font-size:13px; color:#B4B4B4; text-align:left; font-weight:normal; display:block;}
-.form_section_wrap:hover label { color:#C46C87;}
+.form_section_wrap label { margin:0; padding:0 0 3px 0; font-size:13px; text-align:left; font-weight:normal; display:block;}
+/*.form_section_wrap:hover label { color:#C46C87;}*/
 .form_section_wrap .form_input_wrap { margin:0; padding:0; text-align:left; overflow:hidden; border-bottom:1px solid #A9A9A9;}
 .form_section_wrap:hover .form_input_wrap { border-bottom:1px solid #C46C87;}
 .form_section_wrap .form_input_wrap input, .form_section_wrap .form_input_wrap select { margin:0; padding:0; border:none;  background:none; outline:none; font-size:16px; color:#212121; text-align:left; width:100%;}

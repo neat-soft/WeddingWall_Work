@@ -9,7 +9,7 @@
 module.exports = {
   // MongoDB connection options
   mongo: {
-    uri: 'mongodb://127.0.0.1/skywarrior'
+    uri: 'mongodb://127.0.0.1/weddingwall'
   },
 
   port: 9191,

@@ -71,6 +71,7 @@ function isOptionallyAuthenticated() {
  * Checks if the user role meets the minimum requirements of the route
  */
 function hasRole(roleRequired) {
+  console.log("admin");
   if (!roleRequired) throw new Error('Required role needs to be set');
 
   return compose()
@@ -88,7 +89,7 @@ function hasRole(roleRequired) {
 /**
  * Checks if the user is Admin or Teacher
  */
-function hasAdminOrTeacher() {
+function hasAdmin() {
   return compose()
     .use(isAuthenticated())
     .use(function meetsRequirements(req, res, next) {
@@ -165,7 +166,7 @@ function isBeta(req, res) {
 }
 exports.isAuthenticated = isAuthenticated;
 exports.hasRole = hasRole;
-exports.hasAdminOrTeacher = hasAdminOrTeacher;
+exports.hasAdmin = hasAdmin;
 exports.signToken = signToken;
 exports.setTokenCookie = setTokenCookie;
 exports.resetStatCounter = resetStatCounter;

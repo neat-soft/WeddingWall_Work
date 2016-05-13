@@ -13,16 +13,7 @@ var UserSchema = new Schema({
     type: String,
     default: 'user'
   },
-  academicRole: {
-    type: String
-  },
-  nameChanged: {
-    type: Boolean,
-    default: false
-  },
-  hashedPassword: String,
-  resetPasswordToken: String,
-  resetPasswordExpires: Date
+  hashedPassword: String
 });
 
 /**
@@ -32,7 +23,7 @@ UserSchema
   .virtual('password')
   .set(function (password) {
     this._password = password;
-    this.salt = this.makeSalt();
+    //this.salt = this.makeSalt();
     this.hashedPassword = this.encryptPassword(password);
   })
   .get(function () {

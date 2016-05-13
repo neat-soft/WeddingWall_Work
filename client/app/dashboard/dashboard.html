@@ -1,0 +1,140 @@
+<section id="section_login" class="section" style="min-height:898px;">
+	<div  class="container mask-red">
+
+
+		<div class="color_white opensans my_font_size_30pt bold" style="margin-top: 100px;">
+				DashBoard
+		</div>
+		<div class="container" style="margin-top: 60px; color: #17a8e5;" >
+		 <form style="width:100%" ng-model="form" name="dashBoardForm" ng-submit="update(form)" >
+		 	<div class="container">
+		 	<div class ="col-sm-4" style="background-color: #616161;">
+				<div class="form_section_wrap" style = "margin-top:35px;">
+					<label>PromoTag</label>
+					<div class="form_input_wrap color_white">
+					  <textarea class="color_black limit-overflow" type="text" name="PromoTag" placeholder="Promo Tag" ng-model="AMVs.Promo_Tag" ng-maxlength="50" required>
+					  </textarea>
+					  	<p ng-show="dashBoardForm.PromoTag.$error.required && !dashBoardForm.PromoTag.$pristine" class="help-block">Promo Tag required.</p>
+	          	<p ng-show="dashBoardForm.PromoTag.$error.maxlength" class="help-block">Promo Tag is  too long.</p>
+				    </div>
+				</div>
+
+				<!-- Silvier Value -->
+				<div class="form_section_wrap">
+					<label>Silver Cross Value</label>
+					<input class="color_black2" type="number" name="SilverCross" placeholder="Silver Cross value" ng-model="AMVs.SilverCross" ng-maxlength="50" required>
+					  	<p ng-show="dashBoardForm.SilverCross.$error.required && !dashBoardForm.SilverCross.$pristine" class="help-block">Silver Cross value is  required.</p>
+				</div>
+
+				<div class="form_section_wrap">
+					<label>Silver Final Value</label>
+					<input class="color_black2" type="number" name="SilverFinal" placeholder="Silver Final value" ng-model="AMVs.SilverFinal" ng-maxvalue="150" required>
+					  	<p ng-show="dashBoardForm.SilverFinal.$error.required && !dashBoardForm.SilverCross.$pristine" class="help-block">Silver Cross value is  required.</p>
+				</div>
+
+				<!-- Platinum Value -->
+				<div class="form_section_wrap">
+					<label>Platinum Cross Value</label>
+					<input class="color_black2" type="number" name="PlatinumCross" placeholder="Platinum cross value" ng-model="AMVs.PlatinumCross" ng-maxvalue="50" required>
+					  	<p ng-show="dashBoardForm.PlatinumCross.$error.required && !dashBoardForm.PlatinumCross.$pristine" class="help-block">Platinum Cross value is  required.</p>    	
+				</div>
+
+				<div class="form_section_wrap">
+					<label>Platinum Final Value</label>
+					<input class="color_black2" type="number" name="PlatinumFinal" placeholder="Platinum Final value" ng-model="AMVs.PlatinumFinal" ng-maxvalue="150" required>
+					  	<p ng-show="dashBoardForm.PlatinumFinal.$error.required && !dashBoardForm.PlatinumFinal.$pristine" class="help-block">Platinum Final value is  required.</p>
+				</div>
+
+				<!-- Gold Value -->
+				<div class="form_section_wrap">
+					<label>Gold Cross Value</label>
+					<input class="color_black2" type="number" name="GoldCross" placeholder="Gold cross value" ng-model="AMVs.GoldCross" ng-maxvalue="50" required>
+					  	<p ng-show="dashBoardForm.GoldCross.$error.required && !dashBoardForm.GoldCross.$pristine" class="help-block">Gold Cross  value is  required.</p>  	
+				</div>
+				<div class="form_section_wrap">
+					<label>Gold Final Value</label>
+					<input class="color_black2" type="number" name="GoldFinal" placeholder="Gold Final value" ng-model="AMVs.GoldFinal" ng-maxvalue="150" required>
+					  	<p ng-show="dashBoardForm.GoldFinal.$error.required && !dashBoardForm.GoldFinal.$pristine" class="help-block">Gold Final value is  required.</p>
+				</div>
+
+			</div>
+
+			<!-- SEcond -->
+
+			<!-- <div class ="col-sm-4" style="background-color: #616161;">
+				<ul class="nav nav-pills">
+				  <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
+				  <li><a data-toggle="pill" href="#menu1">Menu 1</a></li>
+				  <li><a data-toggle="pill" href="#menu2">Menu 2</a></li>
+				</ul>
+
+				<div class="tab-content">
+				  <div id="home" class="tab-pane fade in active">
+				    <h3>HOME</h3>
+				    <p>Some content.</p>
+				  </div>
+				  <div id="menu1" class="tab-pane fade">
+				    <h3>Menu 1</h3>
+				    <p>Some content in menu 1.</p>
+				  </div>
+				  <div id="menu2" class="tab-pane fade">
+				    <h3>Menu 2</h3>
+				    <p>Some content in menu 2.</p>
+				  </div>
+				</div>
+			</div> -->
+
+				<!-- 3 -->
+				<!-- Social Imapact title -->
+				<div class ="col-sm-4" style="background-color: #616161;">
+				<div class="form_section_wrap" style = "margin-top:35px;" >				
+				<label>Video Url</label>
+				<div class="form_input_wrap color_white" >
+					  <input class="color_black limit-overflow" type="text" name="VideoUrl" placeholder="Video Url" ng-model="AMVs.VideoUrl" ng-maxlength="50" required>
+					  </input>
+					  	<p ng-show="dashBoardForm.VideoUrl.$error.required && !dashBoardForm.VideoUrl.$pristine" class="help-block">Video Url is required.</p>
+	          	<p ng-show="dashBoardForm.VideoUrl.$error.maxlength" class="help-block">Video Url is too long.</p>
+				</div>
+				</div>
+				<div class="form_section_wrap" >
+					<label>Social Impact Title</label>
+					<div class="form_input_wrap color_white">
+					  <textarea class="color_black limit-overflow" type="text" name="SocialImpactTitle" placeholder="SocialImpactTitle" ng-model="AMVs.SocialImpact.title" ng-maxlength="50" required>
+					  </textarea>
+					  	<p ng-show="dashBoardForm.SocialImpactTitle.$error.required && !dashBoardForm.SocialImpactTitle.$pristine" class="help-block">Title is required.</p>
+	          	<p ng-show="dashBoardForm.SocialImpactTitle.$error.maxlength" class="help-block">Social Impact Title is  too long.</p>
+				    </div>
+				</div>
+
+				<!-- Social Imapact tag -->
+				<div class="form_section_wrap">
+					<label>Social Impact tag</label>
+					<div class="form_input_wrap color_white">
+					<textarea class="color_black limit-overflow" type="text" name="SocialImpactTag" placeholder="SocialImpactTag" ng-model="AMVs.SocialImpact.tag_line" ng-maxlength="150" required>
+					</textarea>
+					  	<p ng-show="dashBoardForm.SocialImpactTag.$error.required && !dashBoardForm.SocialImpactTag.$pristine" class="help-block">tag is required.</p>
+	          	<p ng-show="dashBoardForm.SocialImpactTag.$error.maxlength" class="help-block">Social Impact tag is  too long.</p>
+	         </div>
+				</div>
+
+				<!-- Social Imapact description -->
+				<div class="form_section_wrap">
+					<label>Social Impact Description</label>
+					<div class="form_input_wrap color_white">
+					<textarea class="color_black limit-overflow" type="text" name="SocialImpactDesc" placeholder="SocialImpactDesc" ng-model="AMVs.SocialImpact.description" ng-maxlength="150" required>
+					</textarea>
+					  	<p ng-show="dashBoardForm.SocialImpactDesc.$error.required && !dashBoardForm.SocialImpactDesc.$pristine" class="help-block">description is required.</p>
+	          	<p ng-show="dashBoardForm.SocialImpactDesc.$error.maxlength" class="help-block">description Impact desc is  too long.</p>
+	         </div>
+				</div>
+
+			</div>
+				
+			</div>
+			<button type="submit" class="btn align-center login_button">Update</button>
+			
+		</form>
+		</div>
+
+	</div>
+</section>

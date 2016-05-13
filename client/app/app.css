@@ -13,6 +13,7 @@
 @import url("main/main.css");
 @import url("custom/custom.css");
 @import url("account/login/login.css");
+@import url("dashboard/dashboard.css");
 @import url("../components/navbar/navbar.css");
 @import url("../components/footer/footer.css");
 @import url("../components/navbar_create/navbar_create.css");

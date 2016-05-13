@@ -1,0 +1,5 @@
+.limit-overflow{
+  max-height: 10em;
+  overflow-y: scroll;
+  width: 100%;
+}

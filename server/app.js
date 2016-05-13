@@ -31,6 +31,23 @@ var OAuth2 = require('oauth').OAuth2;
 
 require('./config/express')(app);
 require('./routes')(app);
+var config = require('./config/environment');
+
+// Connect to database
+if (config.env === 'production') {
+  console.log('connecting to database in production');
+  config.mongo.setUri(function() {
+    console.log('setting the Uri successful. The uri is ' + config.mongo.uri);
+    mongoose.connect(config.mongo.uri, config.mongo.options);
+    return;
+  })
+} else {
+  mongoose.connect(config.mongo.uri, config.mongo.options);
+}
+if(config.seedDB){
+  console.log("seed");
+  require('./config/seed.js');
+}
 
 var env = app.get('env');
 

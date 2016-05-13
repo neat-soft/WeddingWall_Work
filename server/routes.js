@@ -12,6 +12,8 @@ module.exports = function (app) {
   // Insert routes below
   app.use('/api/hashtag/twitter', require('./api/hashtag/twitter'));
   app.use('/api/hashtag/instagram', require('./api/hashtag/instagram'));
+  app.use('/api/user', require('./api/user'));
+  app.use('/api/amvs', require('./api/amvs'));
   app.use('/auth', require('./auth'));
 
   // The error handler must be before any other error middleware

@@ -25,13 +25,13 @@ var all = {
   ip: process.env.IP || '0.0.0.0',
 
   // Should we populate the DB with sample data?
-  seedDB: false,
+  seedDB: true,
 
   // Secret for session, you will want to change this and make it an environment variable
   secrets: {
     session:  process.env.SESSION_SECRET || 'weddingwall-seceret'
   },
-
+  userRoles: ['guest', 'user', 'customer', 'admin'],
   // MongoDB connection options
    mongo: {
     options: {

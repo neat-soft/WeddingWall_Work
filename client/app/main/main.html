@@ -23,7 +23,7 @@
 		<div class="section-header-go">
 			<div style="width: 350px; margin: auto;">
 				<div style="margin-top: 38px; margin-bottom: 38px;">
-					{{Promo_Tag}}
+					{{AMVS.Promo_Tag}}
 				</div>
 				<div style="float: left;">
 					Try Your Hashtag-it's free!
@@ -70,11 +70,11 @@
 			<div class = "select-wedding-wall col-sm-4" style="margin-top: 45px;">
 					<div class = "header silver-style-colors" >	
 						<div class ="type my_font_size_24pt">SILVER</div>
-						<div class ="pvalue my_font_size_20pt"><strike>${{SilverCross}}</strike></div>
-						<div class ="cvalue my_font_size_48pt">${{SilverFinal}}</div>
+						<div class ="pvalue my_font_size_20pt"><strike>${{AMVS.SilverCross}}</strike></div>
+						<div class ="cvalue my_font_size_48pt">${{AMVS.SilverFinal}}</div>
 					</div>
 					<div class ="body" style="min-height: 360px;">
-						<p ng-repeat="silver_feature in SilverFeatures"  >{{silver_feature}}</p>
+						<p ng-repeat="silver_feature in AMVS.SilverFeatures"  >{{silver_feature}}</p>
 						<div class="start-my-wall">
 							<button ng-click="create_weddingwall()" id="silver-start-now-button" class="btn buttons">START MY WALL NOW</button>
 						</div>
@@ -85,11 +85,11 @@
 			<div class = "select-wedding-wall col-sm-4">
 					<div class = "header platinum-style-colors">	
 						<div class ="type my_font_size_24pt">PLATINUM</div>
-						<div class ="pvalue my_font_size_20pt"><strike>${{PlatinumCross}}</strike></div>
-						<div class ="cvalue my_font_size_48pt">${{PlatinumFinal}}</div>
+						<div class ="pvalue my_font_size_20pt"><strike>${{AMVS.PlatinumCross}}</strike></div>
+						<div class ="cvalue my_font_size_48pt">${{AMVS.PlatinumFinal}}</div>
 					</div>
 					<div class ="body" style="min-height: 450px;">
-					<p ng-repeat="platinum_feature in PlatinumFeatures"  >{{platinum_feature}}</p>
+					<p ng-repeat="platinum_feature in AMVS.PlatinumFeatures"  >{{platinum_feature}}</p>
 						<div class="start-my-wall">
 							<button  ng-click="create_weddingwall()" id="platinum-start-now-button" class="btn buttons">START MY WALL NOW</button>
 						</div>
@@ -99,11 +99,11 @@
 			<div class = "select-wedding-wall col-sm-4 gold-wall" >
 					<div class = "header gold-style-colors" >	
 						<div class ="type my_font_size_24pt">GOLD</div>
-						<div class ="pvalue my_font_size_20pt"><strike>${{GoldCross}}</strike></div>
-						<div class ="cvalue my_font_size_48pt">${{GoldFinal}}</div>
+						<div class ="pvalue my_font_size_20pt"><strike>${{AMVS.GoldCross}}</strike></div>
+						<div class ="cvalue my_font_size_48pt">${{AMVS.GoldFinal}}</div>
 					</div>
 					<div class ="body" style="min-height: 360px;">
-						<p ng-repeat="gold_feature in GoldFeatures"  >{{gold_feature}}</p>
+						<p ng-repeat="gold_feature in AMVS.GoldFeatures"  >{{gold_feature}}</p>
 							<div class="start-my-wall">
 								<button ng-click="create_weddingwall()"  id="gold-start-now-button" class="btn buttons">START MY WALL NOW</button>
 						</div>
@@ -382,14 +382,14 @@
 <div class="mask-red">
 	<div class="container">
 		<div class="color_white opensans my_font_size_30pt bold" style="margin-top:70px;">
-			{{SocialImpact.title}}
+			{{AMVS.SocialImpact.title}}
 		</div>
 		<br>
-		<span class="color_white opensans my_font_size_24pt" style="margin-top: 72px; text-transform: uppercase;">{{SocialImpact.tag_line}}</span>
+		<span class="color_white opensans my_font_size_24pt" style="margin-top: 72px; text-transform: uppercase;">{{AMVS.SocialImpact.tag_line}}</span>
 		<br>
 		<br>
 		<br>
-		<span class = "color_white my_font_size_20pt"style="text-align: left;margin-top:75px;">{{SocialImpact.description}}</span>
+		<span class = "color_white my_font_size_20pt"style="text-align: left;margin-top:75px;">{{AMVS.SocialImpact.description}}</span>
 	</div>
 	</div>
 </section>
@@ -404,7 +404,7 @@
 				<tbody>
 					<tr>
 						<td style="width: 45%;">
-						<p class = "my_font_size_20pt color_black" style="text-align: left;" ng-repeat="question in Questions"  >{{question}}</p>
+						<p class = "my_font_size_20pt color_black" style="text-align: left;" ng-repeat="question in AMVS.Questions"  >{{question}}</p>
 						</td>
 						<td style="width: 5%;">
 						</td>
@@ -412,8 +412,8 @@
 							<hr style="border-left:1px solid #000;height:400px;"></hr>
 						</td>
 						<td style="width: 45%;">
-							<p class = "my_font_size_20pt color_black" style="text-align: left;">{{Questions[0]}}</p>
-							<p class = "my_font_size_20pt color_black2" style="text-align: left;">{{Answers[0]}}/p>
+							<p class = "my_font_size_20pt color_black" style="text-align: left;">{{AMVS.Questions[0]}}</p>
+							<p class = "my_font_size_20pt color_black2" style="text-align: left;">{{AMVS.Answers[0]}}/p>
 						</td>
 					</tr>
 				</tbody>
@@ -436,7 +436,7 @@
 	    		<i class="my_font_size_30pt color_white_trans fa fa-facebook-square" style="background-color: transparent;"></i>
 	    	</div>
 	    	<div class="social-pack-desc">
-	    		<span class = "color_white_trans my_font_size_20pt">@{{SocialMediaAccounts.facebook}}</span>
+	    		<span class = "color_white_trans my_font_size_20pt">@{{AMVS.SocialMediaAccounts.facebook}}</span>
 	    	</div>
 	    	</div>
 	    </li>
@@ -447,7 +447,7 @@
 	    		<i class="my_font_size_30pt color_white_trans fa fa-instagram" style="background-color: transparent;"></i>
 	    	</div>
 	    	<div class="social-pack-desc">
-	    		<span class = "color_white_trans my_font_size_20pt">@{{SocialMediaAccounts.instagram}}</span>
+	    		<span class = "color_white_trans my_font_size_20pt">@{{AMVS.SocialMediaAccounts.instagram}}</span>
 	    	</div>
 	    </div>
 	    </li>
@@ -458,7 +458,7 @@
 		    		<i class="my_font_size_30pt color_white_trans fa fa-twitter-square" style="background-color: transparent;"></i>
 		    	</div>
 		    	<div class="social-pack-desc">
-		    		<span class = "color_white_trans my_font_size_20pt">@{{SocialMediaAccounts.twitter}}</span>
+		    		<span class = "color_white_trans my_font_size_20pt">@{{AMVS.SocialMediaAccounts.twitter}}</span>
 		    	</div>
 		    </div>
 	    </li>
@@ -469,7 +469,7 @@
 		    	<i class="my_font_size_30pt color_white_trans fa fa-pinterest-square" style="background-color: transparent;"></i>
 		    </div>
 		    <div class="social-pack-desc">
-		    	<span class = "color_white_trans my_font_size_20pt">@{{SocialMediaAccounts.pinterest}}</span>
+		    	<span class = "color_white_trans my_font_size_20pt">@{{AMVS.SocialMediaAccounts.pinterest}}</span>
 		    </div>
 		   </div>
 	    </li>
